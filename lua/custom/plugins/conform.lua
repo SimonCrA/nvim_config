@@ -3,13 +3,6 @@ return {
 	opts = {
 		formatters_by_ft = {
 			lua = { "stylua" },
-			javascript = { "prettier" },
-			typescript = { "prettier" },
-			html = { "prettier" },
-			json = { "prettier" },
-			yaml = { "prettier" },
-			markdown = { "prettier" },
-
 			go = { "gofumpt", "goimports_reviser", "golines" },
 			sh = { "shfmt" }, -- Uses your `-i 4` arg from null-ls
 			terraform = { "terraform_fmt" },
