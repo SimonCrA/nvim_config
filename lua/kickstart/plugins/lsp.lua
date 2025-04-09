@@ -213,6 +213,10 @@ return {
 					capabilities = {},
 					filetypes = { "astro" },
 				},
+				svelte = {
+					capabilities = {},
+					filetypes = { "svelte" },
+				},
 			}
 
 			local ensure_installed = vim.tbl_keys(servers or {})
