@@ -1,4 +1,4 @@
--- autoformatting on save
+-- diagnostics/code actions
 return {
 	"nvimtools/none-ls.nvim",
 	dependencies = {
